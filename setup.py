@@ -1,16 +1,13 @@
 import setuptools
 
-import randombag
+import leyline
 
 setuptools.setup(
-    name=randombag.__name__,
-    version=randombag.__version__,
-    author=randombag.__author__,
-    url=randombag.__url__,
-    packages=['randombag'],
-    extras_require={
-        'numpy': ['numpy'],
-    },
+    name=leyline.__name__,
+    version=leyline.__version__,
+    author=leyline.__author__,
+    url=leyline.__url__,
+    packages=['leyline'],
     python_requires='>=3.7.0',
     include_package_data=True,
     data_files=[
